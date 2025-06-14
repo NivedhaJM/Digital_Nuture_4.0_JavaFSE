@@ -1,7 +1,7 @@
 ### Exercise 2: E-commerce Platform Search Function
 ---
 ## 🧠 Objective
-- To implement and compare linear search and binary search on an e-commerce platform to understand their performance using asymptotic analysis (Big O notation).
+- To implement and compare linear search and binary search on an e-commerce platform to understand their performance using an asymptotic analysis (Big O notation).
 
 
 ### 1. 📘 Understanding Asymptotic Notation

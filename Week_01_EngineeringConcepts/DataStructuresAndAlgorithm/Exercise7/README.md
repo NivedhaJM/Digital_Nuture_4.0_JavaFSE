@@ -1,7 +1,7 @@
 ### Exercise 7: Financial Forecasting
 ---
 ## 🧠 Objective
-- Build a tool to predict future financial values using recursive algorithms based on the historical growth rates.
+- Build a tool to predict future financial values using recursive algorithms based on historical growth rates.
 
 ### 1. 🔁 Understanding Recursive Algorithms
 __Recursion__
