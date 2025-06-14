@@ -1,19 +1,17 @@
-import java.util.Scanner;
-
 public class Main {
-    public static void main(String[] args) {
-        Scanner sc = new Scanner(System.in);
+	public static void main(String[] args) {
+		Product[] products = { new Product(101, "Laptop", "Electronics"), new Product(102, "Shirt", "Apparel"),
+				new Product(103, "Mobile", "Electronics"), new Product(104, "Watch", "Accessories"),
+				new Product(105, "Shoes", "Footwear") };
 
-        System.out.print("Enter initial value: ");
-        double initialValue = sc.nextDouble();
+		String searchKey = "Watch";
 
-        System.out.print("Enter annual growth rate (e.g., 0.1 for 10%): ");
-        double growthRate = sc.nextDouble();
+		// Linear Search
+		int linearIndex = SearchAlgorithms.linearSearch(products, searchKey);
+		System.out.println("Linear Search: " + (linearIndex != -1 ? products[linearIndex] : "Product not found"));
 
-        System.out.print("Enter number of years to predict: ");
-        int years = sc.nextInt();
-
-        double result = ForecastCalculator.predictFutureValue(initialValue, growthRate, years);
-        System.out.printf("Predicted Value after %d years: ₹%.2f\n", years, result);
-    }
+		// Binary Search
+		int binaryIndex = SearchAlgorithms.binarySearch(products, searchKey);
+		System.out.println("Binary Search: " + (binaryIndex != -1 ? products[binaryIndex] : "Product not found"));
+	}
 }
