@@ -38,9 +38,8 @@ public static double predictFutureValue(double currentValue, double rate, int ye
 
 Time Complexity
 
-> Recursive approach: O(n) (linear calls for n years)
+> Recursive approach: O(n) 
 
 For each recursive call, one multiplication occurs. 
 
 Use memoization or switch to iterative approach for large n to avoid stack overflow.
-
