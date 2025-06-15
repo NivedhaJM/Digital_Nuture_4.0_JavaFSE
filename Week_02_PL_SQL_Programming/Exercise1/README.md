@@ -71,3 +71,12 @@ CREATE TABLE LOANS (
 );
 
 ```
+
+
+## 🧪 How to Run
+
+ 1. Connect to your Oracle SQL environment (e.g., SQL Developer).
+ 2. Create the required tables using the CREATE TABLE statements above.
+ 3. Insert sample data as needed for testing.
+ 4. Compile each procedure using the provided PL/SQL code.
+ 5. Execute the procedures using EXEC or anonymous blocks with parameters.
