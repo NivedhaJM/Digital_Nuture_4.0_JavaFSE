@@ -1,8 +1,8 @@
-#Exercise 1 : Mocking and Stubbing
+# Exercise 1 : Mocking and Stubbing
 
 ---
 
-##✅ Mocking External API Using Mockito (JUnit + Java)
+## ✅ Mocking External API Using Mockito (JUnit + Java)
 - This project demonstrates how to unit test a service that depends on an external API using Mockito.
 - The goal is to mock the external API, stub its methods, and test your service class in isolation.
 
