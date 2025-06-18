@@ -1,8 +1,8 @@
-#Exercise 2: Verifying Interactions
+# Exercise 2: Verifying Interactions
 
 ---
 
-##✅ Verifying Method Calls Using Mockito (JUnit + Java)
+## ✅ Verifying Method Calls Using Mockito (JUnit + Java)
 - This project demonstrates how to verify that a specific method in a dependency was called during a unit test using Mockito.
 
 - The goal is to mock the dependency, call the service method, and verify interaction.
