@@ -1,47 +1,35 @@
-import static org.junit.Assert.*;
-import org.junit.Before;
-import org.junit.After;
-import org.junit.Test;
+package com.example;
+
+import org.junit.jupiter.api.BeforeEach;
+import org.junit.jupiter.api.AfterEach;
+import org.junit.jupiter.api.Test;
+import static org.junit.jupiter.api.Assertions.*;
 
 public class CalculatorTest {
 
     private Calculator calculator;
 
-    @Before
+    @BeforeEach
     public void setUp() {
-        // Setup: runs before each test
         calculator = new Calculator();
         System.out.println("Setup complete.");
     }
 
-    @After
+    @AfterEach
     public void tearDown() {
-        // Teardown: runs after each test
         calculator = null;
         System.out.println("Teardown complete.");
     }
 
     @Test
     public void testMultiply() {
-        // Arrange
-        int a = 4, b = 5;
-
-        // Act
-        int result = calculator.multiply(a, b);
-
-        // Assert
+        int result = calculator.multiply(4, 5);
         assertEquals(20, result);
     }
 
     @Test
     public void testDivide() {
-        // Arrange
-        int a = 10, b = 2;
-
-        // Act
-        int result = calculator.divide(a, b);
-
-        // Assert
+        int result = calculator.divide(10, 2);
         assertEquals(5, result);
     }
 }

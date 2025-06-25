@@ -11,7 +11,7 @@
 
 ## 📘 Scenario
 
-This project demonstrates how to organize unit tests in Java using the **Arrange-Act-Assert (AAA)** pattern along with the use of **`@Before`** and **`@After`** annotations in JUnit 4 for setting up and tearing down test fixtures.
+This project demonstrates how to organize unit tests in Java using the **Arrange-Act-Assert (AAA)** pattern along with the use of **`@Before`** and **`@After`** annotations in JUnit 5 for setting up and tearing down test fixtures.
 
 ## ✅ Learning Objectives
 
@@ -26,8 +26,8 @@ This project demonstrates how to organize unit tests in Java using the **Arrange
 1. Create a new Java project in Eclipse named `Exercise4_JUnit_AAA`.
 2. Add a class `Calculator.java` in the `src/` folder.
 3. Add a test class `CalculatorTest.java` in the `test/` folder.
-4. Add **JUnit 4** to the project:
-   - Right-click the project → **Build Path → Add Libraries → JUnit → JUnit 4 → Finish**
+4. Add **JUnit 5** to the project:
+   - Right-click the project → **Build Path → Add Libraries → JUnit → JUnit 5 → Finish**
 
 
 ## 📂 Files
