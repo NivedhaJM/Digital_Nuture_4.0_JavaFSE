@@ -16,7 +16,6 @@
             <version>1.7.30</version>
         </dependency>
 
-        <!-- Logback Implementation -->
         <dependency>
             <groupId>ch.qos.logback</groupId>
             <artifactId>logback-classic</artifactId>
