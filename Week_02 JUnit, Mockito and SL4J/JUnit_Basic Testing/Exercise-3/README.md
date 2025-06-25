@@ -9,7 +9,7 @@
 
 ## 📘 Scenario
 
-This exercise demonstrates how to use various **JUnit 4 assertions** to validate test outcomes in Java. Assertions help verify that the logic of your code behaves as expected under different conditions.
+This exercise demonstrates how to use various **JUnit 5 assertions** to validate test outcomes in Java. Assertions help verify that the logic of your code behaves as expected under different conditions.
 
 ## ✅ Learning Objectives
 
@@ -22,13 +22,13 @@ This exercise demonstrates how to use various **JUnit 4 assertions** to validate
 1. Create a new Java project in Eclipse named `Exercise3_JUnit_Assertions`.
 2. Create a class named `AssertionsTest`.
 3. Add JUnit 4 to your project:
-   - Right-click the project → **Build Path → Add Libraries → JUnit → JUnit 4 → Finish**
+   - Right-click the project → **Build Path → Add Libraries → JUnit → JUnit 5 → Finish**
 
 
 
 ## 📂 File
 
-src - `AssertionsTest.java`
+test - `AssertionsTest.java`
 
 
 ## 🔍 Notes
