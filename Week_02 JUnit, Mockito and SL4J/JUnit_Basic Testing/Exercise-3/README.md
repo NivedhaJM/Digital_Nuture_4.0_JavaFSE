@@ -43,4 +43,4 @@ test - `AssertionsTest.java`
  
 ## 🧾 Author
 
-This example is part of a Java unit testing tutorial focused on mastering JUnit fundamentals using common assertions..
+This example is part of a Java unit testing tutorial focused on mastering JUnit fundamentals using common assertions.
