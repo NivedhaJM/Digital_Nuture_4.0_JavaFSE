@@ -14,7 +14,7 @@ This exercise demonstrates how to set up **JUnit 4** in a Java project to begin 
 ## ✅ Learning Objectives
 
 - Understand and apply commonly used JUnit assertions.
-- Validate expressions, conditions, and object states using `assertEquals`, `assertTrue`, `assertFalse`, `assertNull`, and `assertNotNull`.
+- Validate expressions, conditions, and object states like `assertEquals`, `assertTrue`, `assertFalse`, `assertNull`, and `assertNotNull`.
 - Structure simple and clear test cases using basic JUnit syntax.
 
 ## 🛠 Setup Instructions
@@ -26,7 +26,7 @@ This exercise demonstrates how to set up **JUnit 4** in a Java project to begin 
    - Inside `test/`, create a class named `CalculatorTest.java`.
 
 3. **Add JUnit 4**:
-   - Right-click the project → **Build Path → Add Libraries → JUnit → JUnit 4 → Finish**
+   - Right-click the project → **Build Path → Add Libraries → JUnit → JUnit 5 → Finish**
 
 ## 📂 File
 
@@ -37,7 +37,7 @@ test - `CalculatorTest.java`
  
 ## 🧾 Author
 
-This is part of a foundational exercise in setting up Java unit testing with JUnit 4 for new Java developers or testing beginners.
+This is a foundational exercise designed to help new Java developers or testing beginners set up and understand Java unit testing using JUnit.
 
 ---
 
@@ -45,4 +45,4 @@ This is part of a foundational exercise in setting up Java unit testing with JUn
 
 1. Right-click on MainTest.java.
 2. Select Run As → JUnit Test.
-3. View results in the JUnit panel (green bar = success, red = failure).
+3. View results in the JUnit panel (green progress bar = success, red = failure).
