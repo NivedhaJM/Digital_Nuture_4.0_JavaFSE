@@ -24,7 +24,7 @@ Your company is developing a web application for managing a library. You will us
    - Create `com.library.repository.BookRepository`
 
 4. **Run the Application**
-   - Create a main class (e.g., `LibraryManagementApplication`) to load the Spring context and verify bean configuration.
+   - Create a main class (e.g., `Main`) to load the Spring context and verify bean configuration.
 
 ---
 
@@ -42,7 +42,7 @@ Use Spring IoC and Dependency Injection to wire `BookService` with `BookReposito
    - Add a setter method in `BookService` for `BookRepository`.
 
 3. **Test the Configuration**
-   - Run `LibraryManagementApplication` and confirm that DI is working correctly.
+   - Run `Main` and confirm that DI is working correctly.
 
 ---
 
