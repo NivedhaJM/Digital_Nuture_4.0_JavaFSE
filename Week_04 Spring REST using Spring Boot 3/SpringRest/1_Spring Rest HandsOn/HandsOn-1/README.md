@@ -91,13 +91,13 @@ You can verify the application runs by:
 
 ---
 
-`mvn clean              ` # Clean target directory
+`mvn clean` # Clean target directory
 
-`mvn compile           `  # Compile source code
+`mvn compile`  # Compile source code
 
-`mvn test               ` # Run tests
+`mvn test` # Run tests
 
-`mvn spring-boot:run     ` # Run Spring Boot app
+`mvn spring-boot:run` # Run Spring Boot app
 
 ---
 
