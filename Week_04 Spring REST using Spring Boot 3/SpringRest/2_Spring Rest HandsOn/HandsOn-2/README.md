@@ -163,7 +163,7 @@ The `@RestController` annotation ensures the return value is directly written to
 
 > - Response Headers: Content-Type: application/json, Content-Length
 
-For more details, check output [here](https://github.com/NivedhaJM/Digital_Nuture_4.0_JavaFSE/tree/master/Week_04%20Spring%20REST%20using%20Spring%20Boot%203/SpringRest/2_Spring%20Rest%20HandsOn/HandsOn-2)
+For more details, check output [here](https://github.com/NivedhaJM/Digital_Nuture_4.0_JavaFSE/blob/master/Week_04%20Spring%20REST%20using%20Spring%20Boot%203/SpringRest/2_Spring%20Rest%20HandsOn/HandsOn-2/LOCALHOST%20OUTPUT.png)
 
 # 👤 Author
 
