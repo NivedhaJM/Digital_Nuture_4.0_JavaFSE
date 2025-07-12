@@ -71,7 +71,7 @@ Enter:
 
 You will receive a JSON response:
 
-[RESPONSE]([url](https://github.com/NivedhaJM/Digital_Nuture_4.0_JavaFSE/blob/master/Week_04%20Spring%20REST%20using%20Spring%20Boot%203/JWT))
+[RESPONSE](https://github.com/NivedhaJM/Digital_Nuture_4.0_JavaFSE/blob/master/Week_04%20Spring%20REST%20using%20Spring%20Boot%203/JWT/TERMINAL%20OUTPUT.png)
 
 
 ## ⚙ Configuration
